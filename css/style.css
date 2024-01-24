@@ -1,0 +1,132 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #161513;
+    margin: 0;
+
+}
+
+.nav {
+    
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav--logo {
+    color: white;
+
+}
+
+.nav--links {
+    font-weight: 400;
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 30px;
+    font-weight: 400;
+
+
+}
+
+
+
+.nav--button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav--button-talk {
+    border-radius: 30px;
+    height: 40px;
+    width: 99px;
+    border: none;
+
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 70px;
+
+}
+
+.hero--img img{
+    object-fit: cover;
+    border-radius:50%;
+}
+
+.hero--title{
+
+font-size: 60px;
+width: 50%;
+text-align: center;
+margin:25px 0;
+}
+
+.hero--desriptiom{
+    width: 50%;
+    text-align: center;
+    font-size: medium;
+    margin-top:0 ;
+}
+
+.hero--button{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.hero--button-primary {
+   padding: 15px 30px;
+   border-radius: 30px;
+   border: 1px solid white;
+   background-color: white;
+   color: black;
+}
+
+.hero--button-secondary{
+    padding: 15px;
+   border-radius: 30px;
+   border: 1px solid white;
+   background-color: transparent;
+   color: white;
+}
+
+
+.hero--title-gradient{
+background-image: linear-gradient(45deg, #f3ec78, #af4261);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.brands{
+    display: flex;
+    color: white;
+    padding: 0 80px;
+    justify-content:space-between;
+    margin: 100px 0;
+
+}
+
+.brands--title{
+    min-width: 30%;
+   
+}
+
+.brands--img-img{
+    object-fit: contain;
+    width: 100%;
+}
+
+.slogan{
+    background-color: #1c1c22;
+    color: white;
+    display: flex;
+    padding: 0 100px;
+}
+
